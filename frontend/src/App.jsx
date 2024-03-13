@@ -7,14 +7,13 @@ function App() {
 
 
   return (
-<>
-<Header />
-it works
-<div style={border="1px solid",min-height="150px"}>
-  <Outlet />
-</div>
-<Footer />
-  </>
+    <>
+      <Header />
+      <div className='main-containers'>
+      <Outlet />
+      </div>
+      <Footer />
+    </>
   )
 }
 

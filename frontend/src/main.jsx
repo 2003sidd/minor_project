@@ -7,7 +7,8 @@ import { Route,createBrowserRouter,RouterProvider,createRoutesFromElements } fro
 import Home from './Components/home/home.jsx';
 import About from './Components/about/about.jsx'
 import Contact from './Components/contact/contact.jsx'
-
+import LoginSignup from './Components/login/loginSingnup.jsx'
+import Signup from './Components/signup/signup.jsx'
 
 const route =createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,8 @@ const route =createBrowserRouter(
       <Route path='' element={<Home/>} />
       <Route path='about' element={<About/>} />
       <Route path='contact' element={<Contact/>} />
+      <Route path='login' element={<LoginSignup  isLoginForm="true"/>} />
+      <Route path='signup' element={<LoginSignup  isLoginForm="false"/>} />
 
     </Route>
   )
