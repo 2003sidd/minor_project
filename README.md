@@ -1,8 +1,8 @@
-# minor_project
-This project is related to health care and developed by team fitness enthusisat.
+# React + Vite
 
-commands to set up project project- 
-1. go to either frontend or backend folder.
-2. run command - npm i
-3. if any error occur happens npm i --force
-4. then run npm run dev to serve project on local system. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

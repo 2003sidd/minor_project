@@ -1,7 +1,10 @@
 import { useState } from 'react'
 
 import './App.css'
-import LoginSignup from './loginSingnup.jsx'
+
+import HamburgerMenu from './Manubar.jsx'
+
+
 
 function App() {
 
@@ -10,7 +13,8 @@ function App() {
     <>
 <div>
 
-      <LoginSignup/>
+      <HamburgerMenu/>
+
 </div>
 
     </>
