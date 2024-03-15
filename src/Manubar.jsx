@@ -25,7 +25,7 @@ export default function HamburgerMenu() {
 
         <div className="sidebar_menu">
           <div className="logo">
-            <a href="#">Apna College</a>
+            <a href="#">Dashboard</a>
           </div>
 
           <div className="btn_two">
