@@ -1,27 +1,30 @@
 
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes, faImage,faPhotoFilm, faCalendarDays, faStore, faPhone, faXmark } from '@fortawesome/free-solid-svg-icons';
-// import { faArrowUpRight } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faMagnifyingGlassArrowRight, faHouse,faHandHoldingMedical,faListCheck, faCalendarDays, faPhone, faXmark } from '@fortawesome/free-solid-svg-icons';
+
 
 import { faComment as farComment } from '@fortawesome/free-regular-svg-icons';
 import { faFacebook, faInstagram, faYoutube , faTwitter} from '@fortawesome/free-brands-svg-icons';
 import LoginSignup from './loginSingnup.jsx';
 import  './miniprojectcss/miniprojectcss.css';
 
+import {Link} from "react-router-dom";
+
 export default function HamburgerMenu() {
   return (
     // <>
     <div className=" complete">
+
     <span className='hamburger-menu-container'>
-      <div className="main-box">
+      <span className="main-box">
         <input type="checkbox" id="check" />
 
-        <div className="btn_one">
+        <span className="btn_one">
           <label htmlFor="check">
             <FontAwesomeIcon icon={faBars} />
           </label>
-        </div>
+        </span>
 
         <div className="sidebar_menu">
           <div className="logo">
@@ -37,32 +40,44 @@ export default function HamburgerMenu() {
           <div className="menu">
             <ul>
               <li>
-                <FontAwesomeIcon icon={faImage} />
-                <a href="#">Gallery</a>
+          
+                <FontAwesomeIcon icon={faHouse} />
+                <Link to="/contact">Home</Link>
+             
               </li>
               <li>
-                <FontAwesomeIcon icon={faXmark} />
-                <a href="#">Shortcuts</a>
+            
+                <FontAwesomeIcon icon={faMagnifyingGlassArrowRight} />
+                <Link to="/about">About</Link>
+            
               </li>
               <li>
-                <FontAwesomeIcon icon={faPhotoFilm} />
-                <a href="#">Exhibits</a>
+            
+                <FontAwesomeIcon icon={faHandHoldingMedical} />
+       
+                <Link to="/allworkout">AllWorkout</Link>
+              </li>
+              <li>
+         
+            
+                <FontAwesomeIcon icon={faListCheck} />
+                <Link to="/dailytask">Dailytask</Link>
               </li>
               <li>
                 <FontAwesomeIcon icon={faCalendarDays} />
-                <a href="#">Events</a>
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faStore} />
-                <a href="#">Store</a>
+                <Link to="/analysis">Analysis</Link>
+     
               </li>
               <li>
                 <FontAwesomeIcon icon={faPhone} />
-                <a href="#">Contact</a>
+          
+               
+                <Link to="/contact">Contact</Link>
               </li>
               <li>
                 <FontAwesomeIcon icon={farComment} />
-                <a href="#">Feedback</a>
+           
+                <Link to="/chatbot">ChatBot</Link>
               </li>
             </ul>
           </div>
@@ -88,7 +103,7 @@ export default function HamburgerMenu() {
 
         </div>
 
-     </div>
+     </span>
     
      <LoginSignup />
      </span>

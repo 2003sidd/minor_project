@@ -7,20 +7,28 @@
 
 width: 100vw;
 height: 100vh;
+position: fixed;
+}
+.complete .home{
+    font-size: 1rem;
+font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 
 .hamburger-menu-container{
-    /* .main_box{ */
+ 
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-/* background-color: rgb(64, 5, 122); */
+
 
 }
 .main_box{
 
-/* when we want to occupy 100%heght of viewport the we use vh unit */
 height: 100vh;
 
 
@@ -31,10 +39,10 @@ height: 100vh;
     font-weight: 700;
     position: absolute;
 
-    left: 20px;
-    line-height:40px;
+    left: 30px;
+    line-height:10px;
     cursor: pointer;
-    transition: all 0.8s linear;
+    /* transition: all 0.8s linear; */
 }
 .sidebar_menu{
     position: fixed;

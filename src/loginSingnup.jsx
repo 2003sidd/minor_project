@@ -167,8 +167,10 @@ export default function LoginSignup() {
   };
 
   return (
+  
 
     <div className='login-signup-container'>
+      <h1 id='home'>Home Page</h1>
     < motion.div whileHover={{ scale: 1.1 }}
       transition={{ type: "tween", stiffness: 1, damping: 40 }}
       className={`container ${isContainerHidden ? 'hidden' : ''}`} >

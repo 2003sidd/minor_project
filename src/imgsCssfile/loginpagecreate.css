@@ -3,7 +3,10 @@
     background-size: conver;
 } */
 
-
+.login-signup-container #home{
+    margin-bottom: 45rem;
+    
+      }
 
 
 .login-signup-container {
@@ -23,6 +26,10 @@
 
 
   }
+  /* .login-signup-container #home{
+margin-bottom: 45rem;
+
+  } */
   
   .container {
     width: 400px;
