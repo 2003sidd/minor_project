@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home.jsx';
 import About from './About.jsx';
+
+
 import Contact from './Contact.jsx';
 import ChatBot from './ChatBot.jsx';
 import AllWorkout from './Recommended.jsx';
@@ -16,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
+
           <Route path="contact" element={<Contact />} />
           <Route path="chatbot" element={<ChatBot />} />
           <Route path="allworkout" element={<AllWorkout />} />

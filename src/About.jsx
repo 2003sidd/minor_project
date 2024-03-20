@@ -1,8 +1,12 @@
 import React from "react";
-
+import SliderComponent from "./slickSlider.jsx";
 const About = () => {
 
-    return <h1>This is about page</h1>
+    return (
+        <SliderComponent/>
+    )
 }
+
+
 
 export default About;
