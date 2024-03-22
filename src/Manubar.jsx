@@ -14,8 +14,10 @@ import {Link} from "react-router-dom";
 export default function HamburgerMenu() {
   return (
     // <>
+    
     <div className=" complete">
-
+  
+   
     <span className='hamburger-menu-container'>
       <span className="main-box">
         <input type="checkbox" id="check" />
@@ -25,6 +27,8 @@ export default function HamburgerMenu() {
             <FontAwesomeIcon icon={faBars} />
           </label>
         </span>
+
+        <span id='home'>Home page</span>
 
         <div className="sidebar_menu">
           <div className="logo">
@@ -83,7 +87,7 @@ export default function HamburgerMenu() {
           </div>
 
 
-          <div class="social_media">
+          <div className="social_media">
           <ul>
             <a href="#">
             <FontAwesomeIcon icon={faFacebook} />
@@ -107,7 +111,8 @@ export default function HamburgerMenu() {
     
      <LoginSignup />
      </span>
-
+   
+    
      </div>
   );
 }

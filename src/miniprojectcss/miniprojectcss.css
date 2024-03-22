@@ -8,6 +8,8 @@
 width: 100vw;
 height: 100vh;
 position: fixed;
+top: 0%;
+left: 0%;
 }
 .complete .home{
     font-size: 1rem;
@@ -19,6 +21,13 @@ font-weight: 600;
 }
 
 
+#home{
+
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: yellow;
+    font-weight: 700;
+}
 .hamburger-menu-container{
  
     margin: 0;
