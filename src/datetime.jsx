@@ -19,7 +19,7 @@ const CurrentDateTime = () => {
 
   return (
     <div>
-      <h2 style={{color: "#520736"},{fontWeight:"700"}}>Current Date and Time</h2>
+      <h2 style={{color: "#520736"},{fontWeight:"700"}}>Current Day and Date</h2>
       <p className='time'>{formattedDateTime}</p>
     </div>
   );
