@@ -1,0 +1,50 @@
+
+
+   .ImageListItem-container {
+    margin-top: 2rem;
+      width: 240px;
+      height: 10px; 
+      overflow: hidden;
+      padding-left: 2rem;
+   
+
+  
+    }
+
+    .css-7yqrzg-MuiImageList-root .card{
+      display: flex;
+      flex-direction: row;
+      height: 270px;
+      width: 300px;
+      background-color: rgb(222, 243, 177);
+   border-radius: 30px;
+   transition: width 0.3s linear, height 0.3s linear;
+    
+    }
+
+    .css-7yqrzg-MuiImageList-root .card:hover{
+background-color: rgb(194, 192, 241);
+    }
+
+
+
+    
+    .css-7yqrzg-MuiImageList-root .card:hover {
+      width: 320px; /* Adjust the expanded width */
+      height: 300px; 
+      box-shadow: 0px 3px 5px rgb(8, 8, 8);/* Adjust the expanded height */
+    
+      padding-right: 2rem; 
+    
+    }
+
+    .css-dasnyc-MuiImageListItemBar-title{
+
+      color:#220508;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+
+    
+

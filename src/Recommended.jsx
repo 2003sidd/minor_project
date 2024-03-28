@@ -1,10 +1,13 @@
 import React from "react";
+import Component3 from "./copm3.jsx";
 
 
 
 const AllWorkout = () => {
 
-    return <h1>You will find here different workouts</h1>
+    return (
+        <Component3/>
+    )
 
 }
 
