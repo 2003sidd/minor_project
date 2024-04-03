@@ -168,7 +168,7 @@ export default function LoginSignup(props) {
 
 
     <div className='login'>
-      <h1>props is {props.isLoginForm}</h1>
+      {/* <h1>props is {props.isLoginForm}</h1> */}
     < motion.div whileHover={{ scale: 1.1 }}
       transition={{ type: "tween", stiffness: 1, damping: 40 }}
       className={`container ${isContainerHidden ? 'hidden' : ''}`} >
