@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    background-color: #10002d;
+    color: white;
+    align-items: center;
+}
+/* .hamburger-menu{
+    display: none;
+} */
+.ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+}
+.li{
+    list-style-type: none;
+    text-decoration: none;
+    border: 1px solid #10002d;
+    transition: all 0.3s;
+    padding: 7px;
+}
+.li:hover{
+    border: 1px solid white;
+}
+Link{
+    text-decoration: none;
+}
+a{
+    color: white !important;
+    text-decoration: none;
+}
+button{
+    background: #f5a107;
+    color: white;
+    margin: 8px 10px;
+    padding: 8px;
+}

@@ -1,17 +1,16 @@
 
 import React from 'react';
-
 import { useState, useEffect } from 'react';
 import { motion } from "framer-motion"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import './imgsCssfile/loginpagecreate.css';
-// import './style.css';
-import eyeClose from './imgsCssfile/eye-close.png';
-import eyeOpen from './imgsCssfile/eye-open.png';
-
+ 
+import "../login/loginpagecreate.css"
+import eyeClose from '../../imgsCssfile/eye-close.png';
+import eyeOpen from '../../imgsCssfile/eye-open.png'
+// import "../login/loginpagecreate.css";
 
 export default function LoginSignup() {
 
@@ -167,10 +166,10 @@ export default function LoginSignup() {
   };
 
   return (
-  
 
-    <div className='login-signup-container'>
-      {/* <h1 id='home'>Home Page</h1> */}
+
+    <div className='login'>
+      {/* <h1>props is {props.isLoginForm}</h1> */}
     < motion.div whileHover={{ scale: 1.1 }}
       transition={{ type: "tween", stiffness: 1, damping: 40 }}
       className={`container ${isContainerHidden ? 'hidden' : ''}`} >
@@ -281,10 +280,7 @@ export default function LoginSignup() {
         {loginMessage}
       </form>
     </ motion.div>
-
-</div>
-
-
+    </div>
   );
 }
 
