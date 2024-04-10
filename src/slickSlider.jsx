@@ -41,7 +41,7 @@ return(
  
       <div className="slidingImage">
         <img src={Image1} alt="meritation" />
-        <p> We understand the importance of exercise in maintaining overall well-being, but we also recognize the risks associated with excessive exercise and the potential harm it can cause to both physical and mental health.</p>
+        <p> We understand the importance of exercise in  maintaining overall well-being, but we also recognize the risks associated with excessive exercise and the potential harm it can cause to both physical and mental health.</p>
       </div>
       <div className="slidingImage">
         <img src={Image2} alt="yoga" />

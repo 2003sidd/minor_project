@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.choose{
+    overflow: hidden;
+    max-width: 50%;
+    height:70vh;
+    background-color: rgb(240, 109, 150);
+    margin-top: 5rem;
+
+display: flex;
+justify-content: center;
+margin-left: 20rem;
+border-radius: 30px;
+padding-top: 2rem;
+}
+
+.msg{
+    padding-top: 3rem;
+text-align: center;
+font-size: 2.5rem;
+font-weight: 500;
+
+}
+#demo-multiple-name-label{
+color: rgb(16, 16, 16);
+}
+
+#demo-simple-select-autowidth-label{
+    color: rgb(16, 16, 16);  
+}
