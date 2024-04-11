@@ -8,6 +8,7 @@ import About from './components/about/about.jsx'
 import Contact from './components/contact/contact.jsx'
 import LoginSignup from './components/login/loginSingnup.jsx'
 import "./mediaQuery.css"
+import Component3 from './components/comp3/comp3.jsx'
 // import Signup from './Components/signup/signup.jsx'
 // import X from './components/home/home.jsx'
 
@@ -19,6 +20,7 @@ const route =createBrowserRouter(
       <Route path='contact' element={<Contact/>} />
       <Route path='login' element={<LoginSignup />} />
       <Route path='signup' element={<LoginSignup  />} />
+      <Route path='comp3' element={<Component3  />} />
 
     </Route>
   )

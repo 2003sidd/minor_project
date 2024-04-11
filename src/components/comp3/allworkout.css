@@ -1,0 +1,59 @@
+main{
+    margin-top: 0rem;
+
+    width: 100%;
+    height: 100vh;
+text-align: center;
+    overflow: hidden;
+}
+
+
+
+
+ .css-bhp9pd-MuiPaper-root-MuiCard-root{
+
+    height: 100vh;
+width: 100vw;
+    margin-top: 0.5rem;
+  
+
+} 
+
+.title {
+
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+
+.center .slick-center .workouts{
+
+    transform: scale(1.1);
+    z-index: 1000;
+  transition: all 400ms ease-in-out;
+  pointer-events: all;
+  }
+
+  .center .workouts{
+
+    opacity: 0.8;
+    pointer-events: none;
+  }
+
+  @media(max-width:810px){
+
+    .center .slick-center .workouts{
+        transform: scale(1);
+    }
+  }
+  .center .workouts{
+
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .css-19kzrtu{
+    padding: 0;
+  }
