@@ -1,5 +1,5 @@
 import React from "react";
-import Component3 from "./copm3.jsx";
+import Component3 from "./comp3.jsx";
 
 
 
