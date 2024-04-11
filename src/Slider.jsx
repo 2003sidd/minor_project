@@ -12,7 +12,8 @@ let data = [
 
   {
 img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29ya291dHxlbnwwfHwwfHx8MA%3D%3D",
-discription: " Strektching ,Increased blood flow and can boost brain health."
+discription: " Stretching ,Increased blood flow and can boost brain health"
+
 },
 
 {
@@ -38,7 +39,7 @@ discription: " push-ups can help prevent and minimize back pain."
 
     {
       img: " https://post.healthline.com/wp-content/uploads/2019/11/Female_Fitness_Ball-1296x728-Header.jpg",
-      discription: "For those who suffer with swollen ankles and feet, this posture can be a great way to reduce the swelling and discomfort."
+      discription: "Exercise balls ,for those who suffer with swollen ankles and feet, this posture can be a great way to reduce the swelling and discomfort."
       },
 
       {

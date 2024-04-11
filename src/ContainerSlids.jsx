@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'; 
 import styled from 'styled-components';
 
 
@@ -11,11 +12,14 @@ const ContainerSlids =(props) => {
       
         <img src={img} alt='img ' />
         <div className="discription">
-    <h2><span className='green'>About</span></h2>
+    <h2><span className='green'>About</span>
+   
+    </h2>
         <p>{discription}
-        <a href='#'>Try</a>
+        <Link to="/filter">Try</Link>
+      
         </p>
-  
+     
         </div>
 
       </Container>
